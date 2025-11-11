@@ -1,0 +1,68 @@
+export const mockSubscriptions = [
+  {
+    id: 'S12345',
+    offerTitle: 'Premium Monthly',
+    status: 'active',
+    price: 12.99,
+    currency: 'EUR',
+    nextPaymentDate: '2025-11-15T10:00:00Z',
+  },
+  {
+    id: 'S67890',
+    offerTitle: 'Sports Pass - Annual',
+    status: 'active',
+    price: 99.99,
+    currency: 'USD',
+    nextPaymentDate: '2026-08-01T10:00:00Z',
+  },
+    {
+    id: 'S672890',
+    offerTitle: 'Sports Pass - Annual',
+    status: 'active',
+    price: 99.99,
+    currency: 'USD',
+    nextPaymentDate: '2026-08-01T10:00:00Z',
+  },
+    {
+    id: 'S678290',
+    offerTitle: 'Sports Pass - Annual',
+    status: 'active',
+    price: 99.99,
+    currency: 'USD',
+    nextPaymentDate: '2026-08-01T10:00:00Z',
+  },
+    {
+    id: 'S678390',
+    offerTitle: 'Sports Pass - Annual',
+    status: 'active',
+    price: 99.99,
+    currency: 'USD',
+    nextPaymentDate: '2026-08-01T10:00:00Z',
+  },
+    {
+    id: 'S678490',
+    offerTitle: 'Sports Pass - Annual',
+    status: 'active',
+    price: 99.99,
+    currency: 'USD',
+    nextPaymentDate: '2026-08-01T10:00:00Z',
+  },
+    {
+    id: '5S67890',
+    offerTitle: 'Sports Pass - Annual',
+    status: 'active',
+    price: 99.99,
+    currency: 'USD',
+    nextPaymentDate: '2026-08-01T10:00:00Z',
+  },
+    {
+    id: 'S678920',
+    offerTitle: 'Sports Pass - Annual',
+    status: 'active',
+    price: 99.99,
+    currency: 'USD',
+    nextPaymentDate: '2026-08-01T10:00:00Z',
+  },
+
+
+];
