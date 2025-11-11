@@ -15,10 +15,8 @@ test('loads and displays subscriptions', async () => {
     </Provider>
   );
 
-  // Loading state visible first
   expect(screen.getByText(/loading/i)).toBeInTheDocument();
 
-  // Dispatch the fetch manually to simulate API
   await store.dispatch(fetchSubscriptions());
   await waitFor(() => {
     expect(screen.getByText(/Premium Monthly/i)).toBeInTheDocument();
