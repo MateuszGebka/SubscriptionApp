@@ -29,4 +29,17 @@ describe('subscriptionsSlice', () => {
     const state = subscriptionsReducer(activeState, action);
     expect(state.data[0].status).toBe('cancelled');
   });
+
+  it('should handle fetchSubscriptions.rejected', () => {
+    const errorMessage = 'Failed to fetch subscriptions';
+    const action = {
+      type: fetchSubscriptions.rejected.type,
+      error: { message: errorMessage },
+    };
+    const state = subscriptionsReducer(undefined, action);
+
+    expect(state.loading).toBe(false);
+    expect(state.data).toEqual([]);
+    expect(state.error).toBe(errorMessage);
+  });
 });
