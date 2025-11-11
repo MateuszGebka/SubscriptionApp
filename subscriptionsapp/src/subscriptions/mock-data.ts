@@ -4,7 +4,7 @@ export const mockSubscriptions = [
     offerTitle: 'Premium Monthly',
     status: 'active',
     price: 12.99,
-    currency: 'EUR',
+    currency: 'USD',
     nextPaymentDate: '2025-11-15T10:00:00Z',
   },
   {
@@ -34,7 +34,7 @@ export const mockSubscriptions = [
     {
     id: 'S678390',
     offerTitle: 'Sports Pass - Annual',
-    status: 'active',
+    status: 'cancelled',
     price: 99.99,
     currency: 'USD',
     nextPaymentDate: '2026-08-01T10:00:00Z',
@@ -44,15 +44,15 @@ export const mockSubscriptions = [
     offerTitle: 'Sports Pass - Annual',
     status: 'active',
     price: 99.99,
-    currency: 'USD',
+    currency: 'EUR',
     nextPaymentDate: '2026-08-01T10:00:00Z',
   },
     {
     id: '5S67890',
     offerTitle: 'Sports Pass - Annual',
-    status: 'active',
+    status: 'cancelled',
     price: 99.99,
-    currency: 'USD',
+    currency: 'EUR',
     nextPaymentDate: '2026-08-01T10:00:00Z',
   },
     {

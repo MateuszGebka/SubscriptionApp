@@ -34,6 +34,7 @@ export const fetchSubscriptions = createAsyncThunk(
   }
 );
 
+// mock error fetch
 // export const fetchSubscriptions = createAsyncThunk(
 //   'subscriptions/fetchSubscriptions',
 //   async () => {
